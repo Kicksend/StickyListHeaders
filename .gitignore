@@ -51,6 +51,10 @@ local.properties
 # PDT-specific
 .buildpath
 
+# Gradle
+gen-external-apklibs/
+build/
+.gradle/
 
 ###Maven###
  
