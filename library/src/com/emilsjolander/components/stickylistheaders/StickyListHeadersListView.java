@@ -102,7 +102,7 @@ public class StickyListHeadersListView extends ListView {
 	}
 
 	public StickyListHeadersListView(Context context, AttributeSet attrs) {
-		this(context, attrs, android.R.attr.listViewStyle);
+		this(context, attrs, 0);
 	}
 
 	public StickyListHeadersListView(Context context, AttributeSet attrs,
