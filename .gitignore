@@ -1,5 +1,5 @@
 ###Android###
- 
+
 # built application files
 *.apk
 *.ap_
@@ -23,7 +23,7 @@ local.properties
 
 
 ###Eclipse###
- 
+
 *.pydevproject
 .project
 .metadata
@@ -57,8 +57,14 @@ build/
 .gradle/
 
 ###Maven###
- 
+
 target/
+
+
+###Gradle###
+
+.gradle/
+build/
 
 
 ###IntelliJ###
