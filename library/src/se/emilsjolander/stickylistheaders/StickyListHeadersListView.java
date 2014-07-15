@@ -110,7 +110,7 @@ public class StickyListHeadersListView extends FrameLayout {
     }
 
     public StickyListHeadersListView(Context context, AttributeSet attrs) {
-        this(context, attrs, 0);
+        this(context, attrs, android.R.attr.listViewStyle);
     }
 
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
@@ -208,6 +208,8 @@ public class StickyListHeadersListView extends FrameLayout {
                 mIsDrawingListUnderStickyHeader = a.getBoolean(
                         R.styleable.StickyListHeadersListView_isDrawingListUnderStickyHeader,
                         true);
+            } catch (UnsupportedOperationException e) {
+                // Don't crash here
             } finally {
                 a.recycle();
             }
