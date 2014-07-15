@@ -110,7 +110,7 @@ public class StickyListHeadersListView extends FrameLayout {
     }
 
     public StickyListHeadersListView(Context context, AttributeSet attrs) {
-        this(context, attrs, android.R.attr.listViewStyle);
+        this(context, attrs, 0);
     }
 
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
